@@ -1,0 +1,80 @@
+@font-face {
+  font-family:Sarabun-Medium;
+  src: url(/font/sarabun-2-cufonfonts-webfont/Sarabun-Medium.woff);
+}
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+footer{
+  margin-top: 30px;
+}
+* {
+   font-family:Sarabun-Medium !important;
+    box-sizing: border-box;
+  }
+img{
+  width: 100%;
+}
+a{
+  text-decoration: none;
+
+}
+button{
+  text-decoration: none !important;
+}
+li{
+  list-style-type: none;
+}
+  .slider {
+      width: 50%;
+      margin: 100px auto;
+  }
+
+  .slick-slide {
+    margin: 0px 20px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+  }
+  
+  .slick-active {
+    opacity: .5;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
+.footer .nav-link{
+    color: rgba(4, 4, 107, 0.729) !important; 
+
+}
+.footer-content{
+    right: 0;
+    text-align: center;
+    padding-top: 16px;
+}
+nav{
+  margin: 0 auto;
+}
+.nav-link:hover{
+  color:burlywood !important;
+}
+button:hover{
+ color:rgb(203, 80, 13) !important;
+}
+.send:hover{
+  background-color: rgb(131, 154, 224) !important;
+}

@@ -1,0 +1,61 @@
+.section2{
+    position: relative;
+    background-image: url('/image/contact.png');
+    background-size: 100%;
+    width: 100%;
+    min-height:520px;
+    color:white;
+}
+.nav-link{
+    color: rgba(4, 4, 107, 0.729);
+}
+.section2 p{
+    margin: 0;
+}
+.section2 .row{
+    /* padding-top: 100px; */
+    transform: translateY(150%);
+}
+.section3 .container{
+    padding-top:50px;
+
+}
+.section3 .row{
+    padding-top: 20px;
+}
+.section3{
+    color: rgba(4, 4, 107, 0.729);
+}
+.section3 .box-p{
+    margin: 20px auto;
+}
+.section3 p{
+    margin: 0;
+}
+.section3 textarea{
+    min-height: 80px !important;
+}
+.section3 .send{
+    width: 100%;
+    background-color: rgb(5, 5, 73);
+    color: white;
+}
+.section3 .form-control{
+    margin-bottom: 15px;
+}
+.section4{
+    background-image: url("/image/contact2.png");
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    min-height: 300px;
+    color: white;
+    background-size: 100%;
+}
+.section4 .row{
+    padding-top: 30px;
+}
+.section4 .btn{
+    background-color: white !important;
+    margin-top: 30px;
+}

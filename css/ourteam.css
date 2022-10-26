@@ -1,0 +1,65 @@
+.section1{
+    position: relative;
+    background-image: url('/image/ourteam.png');
+    background-size: 100%;
+    width: 100%;
+    min-height:700px;
+}
+.section1 .navbar{
+    /* position: absolute; */
+    top:0;
+}
+nav{
+    margin: 0 auto;
+}
+.section1 .content-left{
+    width: 50%;
+    color:rgb(252, 253, 253);
+    margin-top: 20%;
+    
+}
+.nav-link{
+    color: white !important;
+}
+.section2{
+    padding-top: 40px;
+}
+.section2 .col{
+    padding-left: 30px;
+    color: rgba(4, 4, 107, 0.729); 
+}
+.regular{
+    margin-top: 30px;
+    width:95%;
+}
+.section3{
+    color: rgba(4, 4, 107, 0.729); 
+}
+.section3 p{
+ margin: 0;
+}
+.section3 .row{
+    padding-top: 40px;
+    margin: 0 50px auto;
+}
+.section3 .card{
+    width:250px;
+    height:300px;
+    display: inline-block !important;
+}
+.section3 img{
+    margin-top: 20px; 
+}
+.section4{
+    position: relative;
+    background-image: url('/image/teamour.png');
+    background-size: 100%;
+    width: 100%;
+    min-height: 500px;
+    color: white;
+    margin-top: 60px;
+}
+.section4 .container{
+    /* padding-top: 60px; */
+    transform: translateY(70%);
+}

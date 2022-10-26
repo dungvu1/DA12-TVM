@@ -1,0 +1,135 @@
+.section1{
+    position: relative;
+    background-image: url('/image/home_page.png');
+    background-size: 100%;
+    width: 100%;
+    min-height:auto;
+    padding-bottom: 15%;
+}
+.section1 .navbar{
+    /* position: absolute; */
+    top:0;
+}
+nav{
+    margin: 0 auto;
+}
+.section1 .content-left{
+    width: 50%;
+    color:rgb(252, 253, 253);
+    margin-top: 10%;
+    
+}
+.nav-link{
+    color: white !important;
+}
+.section1 .btn{
+ background-color: white !important;
+ margin: 40px auto;
+}
+.section2{
+    background-color: rgb(213, 210, 206);
+}
+.section2 .col-md-6 p{
+ margin: 0;
+}
+.regular{
+    margin-top: 30px;
+    width:100%;
+}
+.hi5{
+    padding-bottom: 35px;
+    margin-left: 0;
+    
+}
+.section2{
+    color: rgba(4, 4, 107, 0.729); 
+}
+.hi5 a{
+    padding-left: 20px;
+}
+h1{
+    color: rgba(4, 4, 107, 0.729);
+    padding-top: 30px;  
+}
+.row{
+margin-top: 50px;
+}
+.section2 .row{
+    padding-bottom: 40px;
+}
+.section2 .col{
+    margin-left: 40px;
+}
+.section3 p{
+    margin: 0;
+}
+.section3 h4{
+    margin-top: 20px;
+}
+.section3{
+    color: rgba(4, 4, 107, 0.729);  
+}
+.section4{
+    margin-top: 30px;
+    color: rgba(4, 4, 107, 0.729);
+}
+.container .image4{
+    position: relative;
+    margin-top: 30px;
+}
+.container .but{
+    position: absolute; 
+    top:0;
+    margin: 0 47% auto;
+ 
+}
+.section5 .row .col{
+    position: relative;
+    margin-top: 40px;
+}
+.section5 .row .image-content{
+    position:absolute;
+    bottom: 30px;
+    color: white;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.section5 .row .col{
+    position: relative;
+    margin-top: 40px;
+}
+.section5 .row .image-content1{
+    position:absolute;
+    bottom: 60px;
+    color: white;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.section5 .send{
+    width: 340px;
+    height: 50px;
+    color: white;
+    background-color: rgb(51, 51, 231) ;
+    border: 1px solid white;
+}
+.btn-primary{
+    background-color: rgb(29, 29, 138) !important;
+}
+.section6{
+    color: rgba(4, 4, 107, 0.729); 
+    margin-top: 20px;
+}
+.footer .nav-link{
+    color: rgba(4, 4, 107, 0.729) !important; 
+
+}
+.footer-content{
+    right: 0;
+    text-align: center;
+    padding-top: 16px;
+}
+.bl{
+    margin-top: 30px;
+}

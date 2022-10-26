@@ -1,0 +1,79 @@
+.section2{
+    position: relative;
+    background-image: url('/image/WHY\ CHOOSE\ US.png');
+    background-size: 100%;
+    width: 100%;
+    min-height: 600px;
+    color: white;
+}
+.section2 .col-6{
+    transform: translateY(70%);
+}
+.section3 li{
+   list-style-type: disc;
+}
+.section3{
+    padding-top: 30px;
+    color: rgba(4, 4, 107, 0.729);
+}
+.section3 .container{
+    margin-top: 40px;
+}
+.section4{
+    color: rgba(4, 4, 107, 0.729);
+}
+.section4 .container{
+    margin-top: 40px;
+}
+.section4 .col h5{
+    margin-top: 20px;
+}
+.section4 .col{
+    margin-top: 20px;
+}
+.section4 .row{
+    margin-top: 30px;
+}
+.section5 .our-conten{
+  margin-left: 20px;
+}
+.section5 .our-conten h4{
+    position: relative;
+    padding-bottom: 30px;
+}
+.section5 .our-conten h4::before{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 80px;
+    background-color: rgba(4, 4, 107, 0.729);
+    bottom: 0;
+}
+.section5{
+    color: rgba(4, 4, 107, 0.729);
+}
+.section5 .our-conten p{
+    margin-top: 20px;
+}
+.section5 .container{
+    margin-top: 40px;
+}
+.section5 .row{
+    margin-top: 60px;
+}
+.section6 .row .col{
+    position: relative;
+    margin-top: 40px;
+}
+.section6 .row .image-content{
+    position:absolute;
+    bottom: 30px;
+    color: white;
+}
+.section6{
+    color: rgba(4, 4, 107, 0.729);
+    margin-top: 40px;
+}
+.nav-link{
+    color: rgba(4, 4, 107, 0.729);
+}

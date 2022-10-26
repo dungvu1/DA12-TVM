@@ -1,0 +1,81 @@
+.section2{
+    color: rgba(4, 4, 107, 0.729);
+    margin-top: 50px;
+}
+.section2 .col-4 h1{
+    padding-top: 40px;
+}
+.section2 .col-4 p{
+    position: relative;
+    padding-left: 20px;
+}
+.section2 .col-4 p::before{
+    position: absolute;
+    content:"";
+    width: 7px;
+    height: 70px;
+    background-color:rgba(4, 4, 107, 0.729);
+    left: 0;
+}
+.section2 .btn{
+    background-color:rgba(4, 4, 107, 0.729);
+    color: white;
+}
+.nav-link{
+    color: rgba(4, 4, 107, 0.729);
+}
+.section3 .card-content{
+ opacity: 0.6;
+}
+.section3 .card{
+    width: 400px !important;
+    border: 0;
+}
+.section3{
+    color: rgba(4, 4, 107, 0.729);
+}
+.section3 .text-center{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.section3 .card-text{
+    font-size: 21px;
+}
+.section3 .row{
+    padding-top: 40px;
+}
+.section3 .btn{
+    background-color:rgba(4, 4, 107, 0.729);
+    color: white;
+}
+.section4{
+    color: rgba(4, 4, 107, 0.729);
+}
+.section4 h1{
+    margin-top: 40px;
+}
+.section4 .row{
+    margin-top: 30px;
+}
+.section4 .card{
+    border: 0;
+}
+.section5 .send{
+    width: 100%;
+    background-color:rgba(4, 4, 107, 0.729) ;
+    color: white;
+    height: 50px;
+}
+.section5{
+    color: rgba(4, 4, 107, 0.729);
+    margin-top: 50px;
+}
+.section5 .col-12{
+    margin-top: 14px;
+}
+.section5 .col-6{
+    margin-top: 14px;
+}
+.section5 textarea{
+    min-height: 120px;
+}

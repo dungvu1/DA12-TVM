@@ -1,0 +1,166 @@
+.nav-link{
+    color: rgba(4, 4, 107, 0.729);
+}
+.section2{
+    color: rgba(4, 4, 107, 0.729);
+    margin-top: 50px;
+}
+.section2 .col-4 h1{
+    padding-top: 30px;
+}
+.section2 .col-4 p{
+    position: relative;
+    padding-left: 20px;
+}
+.section2 .col-4 p::before{
+    position: absolute;
+    content:"";
+    width: 7px;
+    height: 70px;
+    background-color:rgba(4, 4, 107, 0.729);
+    left: 0;
+}
+.btn{
+    background-color:rgba(4, 4, 107, 0.729);
+    color: white;
+}
+body {
+    color: rgba(4, 4, 107, 0.729); 
+}
+.section3{
+    margin-top: 60px;
+}
+.section3 .col-4 .tt{
+    position: relative;
+    padding-top: 10px;
+}
+.section3 .col-4 .tt::before{
+    position: absolute;
+    content:"";
+    width: 70px;
+    height: 5px;
+    background-color:rgba(4, 4, 107, 0.729);
+    top: 0;
+}
+
+.section4{
+    margin-top: 60px;
+}
+.section4 .col-4 .tt{
+    position: relative;
+    padding-top: 10px;
+}
+.section4 .col-4 .tt::before{
+    position: absolute;
+    content:"";
+    width: 70px;
+    height: 5px;
+    background-color:rgba(4, 4, 107, 0.729);
+    top: 0;
+    right: 0;
+}
+.section4 .col-4{
+    text-align:right ;
+}
+.section5 .col-4 .tt{
+    position: relative;
+    padding-top: 10px;
+}
+.section5 .col-4 .tt::before{
+    position: absolute;
+    content:"";
+    width: 70px;
+    height: 5px;
+    background-color:rgba(4, 4, 107, 0.729);
+    top: 0;
+}
+.section5{
+    margin-top: 60px;
+}
+.section6{
+    margin-top: 60px;
+}
+.section6 .col-4 .tt{
+    position: relative;
+    padding-top: 10px;
+}
+.section6 .col-4 .tt::before{
+    position: absolute;
+    content:"";
+    width: 70px;
+    height: 5px;
+    background-color:rgba(4, 4, 107, 0.729);
+    top: 0;
+    right: 0;
+}
+.section6 .col-4{
+    text-align:right ;
+}
+.section7 .col-4 .tt{
+    position: relative;
+    padding-top: 10px;
+}
+.section7 .col-4 .tt::before{
+    position: absolute;
+    content:"";
+    width: 70px;
+    height: 5px;
+    background-color:rgba(4, 4, 107, 0.729);
+    top: 0;
+}
+.section7{
+    margin-top: 60px;
+}
+.section9 .col-4 .tt{
+    position: relative;
+    padding-top: 10px;
+}
+.section9 .col-4 .tt::before{
+    position: absolute;
+    content:"";
+    width: 70px;
+    height: 5px;
+    background-color:rgba(4, 4, 107, 0.729);
+    top: 0;
+}
+.section9{
+    margin-top: 60px;
+}
+.section8{
+    margin-top: 60px;
+}
+.section8 .col-4 .tt{
+    position: relative;
+    padding-top: 10px;
+}
+.section8 .col-4 .tt::before{
+    position: absolute;
+    content:"";
+    width: 70px;
+    height: 5px;
+    background-color:rgba(4, 4, 107, 0.729);
+    top: 0;
+    right: 0;
+}
+.section8 .col-4{
+    text-align:right ;
+}
+.section10{
+    margin-top: 60px;
+}
+.section10 .col-4 .tt{
+    position: relative;
+    padding-top: 10px;
+}
+.section10 .col-4 .tt::before{
+    position: absolute;
+    content:"";
+    width: 70px;
+    height: 5px;
+    background-color:rgba(4, 4, 107, 0.729);
+    top: 0;
+    right: 0;
+}
+.section10 .col-4{
+    text-align:right ;
+}
