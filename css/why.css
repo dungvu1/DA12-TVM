@@ -1,13 +1,15 @@
 .section2{
     position: relative;
     background-image: url('/image/WHY\ CHOOSE\ US.png');
-    background-size: 100%;
     width: 100%;
-    min-height: 600px;
+    min-height:100% !important;
     color: white;
+    background-size: cover;
+    padding-bottom: 10%; 
 }
-.section2 .col-6{
-    transform: translateY(70%);
+.section2 .col-md-6{
+    /* transform: translateY(70%); */
+    padding-top: 17%;
 }
 .section3 li{
    list-style-type: disc;
@@ -61,13 +63,13 @@
 .section5 .row{
     margin-top: 60px;
 }
-.section6 .row .col{
+.section6 .row .col-md-4{
     position: relative;
     margin-top: 40px;
 }
 .section6 .row .image-content{
     position:absolute;
-    bottom: 30px;
+    bottom: 10%;
     color: white;
 }
 .section6{

@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/work.css">
+    <link rel="stylesheet" href="/sweetalert/sweetalert2.min.css">
 </head>
 
 <body>
@@ -34,19 +35,19 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu/whychoose.html">WHY CHOOSE US</a>
+                            <a class="nav-link" href="/pages/whychoose.html">WHY CHOOSE US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu/industries.html">INDUSTRIES</a>
+                            <a class="nav-link" href="/pages/industries.html">INDUSTRIES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu/works.html">WORKS</a>
+                            <a class="nav-link" href="/pages/works.html">WORKS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu/ourteam.html">OURTEAM</a>
+                            <a class="nav-link" href="/pages/ourteam.html">OURTEAM</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu/contact.html">CONTACT</a>
+                            <a class="nav-link" href="/pages/contact.html">CONTACT</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">ENG/VN</a>
@@ -60,13 +61,13 @@
     <section class="section2">
         <div class="container">
             <div class="row justify-content-evenly">
-                <div class="col-4">
+                <div class="col-md-4">
                     <h1>OUR WORK</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore mangna aliqua.</p>
                     <button type="button" class="btn">Contact Us</button>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <img src="/image/WORK.png">
                 </div>
             </div>
@@ -79,9 +80,9 @@
             <h1>RECENT PROJECTS</h1>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-evenly">
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 15rem;">
                         <img src="/image/1works.png" class="card-img-top">
                         <div class="card-body">
                             <p class="card-content">Blockchain Supply Chain Drug Supply</p>
@@ -91,7 +92,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 15rem;">
                         <img src="/image/2works.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-content">Tracking Solution Enterprise</p>
@@ -101,7 +102,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 15rem;">
                         <img src="/image/3works.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-content">Robot Machine IoT/Finmware AI</p>
@@ -113,7 +114,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 15rem;">
                         <img src="/image/4works.png" class="card-img-top">
                         <div class="card-body">
                             <p class="card-content">Blockchain Supply Chain Drug Supply</p>
@@ -123,7 +124,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 15rem;">
                         <img src="/image/5works.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-content">Tracking Solution Enterprise</p>
@@ -133,7 +134,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 15rem;">
                         <img src="/image/6works.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-content">Robot Machine IoT/Finmware AI</p>
@@ -237,23 +238,23 @@
                 <h5>Get an estimate for your app idea. We do not spam</h5>
             </div>
             <div class="row">
-                <div class="col-6"><input type="text" class="form-control" placeholder="Name" aria-label="Username">
+                <div class="col-6"><input value="" id="name" type="text" class="form-control" placeholder="Name" aria-label="Username">
                 </div>
-                <div class="col-6"><input type="text" class="form-control" placeholder="Phone" aria-label="UserPhone">
+                <div class="col-6"><input value="" id ="phone" type="text" class="form-control" placeholder="Phone" aria-label="UserPhone">
                 </div>
-                <div class="col-6"><input type="text" class="form-control" placeholder="Company" aria-label="company">
+                <div class="col-6"><input value="" id="company" type="text" class="form-control" placeholder="Company" aria-label="company">
                 </div>
-                <div class="col-6"><input type="text" class="form-control" placeholder="Email" aria-label="email"></div>
-                <div class="col-12"><textarea class="form-control" placeholder="Tell us about your requirement"
+                <div class="col-6"><input value="" id ="email" type="text" class="form-control" placeholder="Email" aria-label="email"></div>
+                <div class="col-12"><textarea id="textarea" class="form-control" placeholder="Tell us about your requirement"
                         aria-label="With textarea"></textarea></div>
                 <div class="col-12">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input value="" class="form-check-input" type="checkbox" value="" id="checkbox">
                         <label class="form-check-label" for="flexCheckDefault">
                             Send me the signed Non-Disclosure Agreement (NDA)
                         </label>
                     </div>
-                    <div class="col-12"><input class="send" type="button" value="Get as astimate" > 
+                    <div class="col-12"><input class="send" onclick="get()" type="button" value="Get as astimate" > 
                     </div>
                 </div>
             </div>
@@ -276,19 +277,19 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu/whychoose.html">WHY CHOOSE US</a>
+                            <a class="nav-link" href="/pages/whychoose.html">WHY CHOOSE US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu/industries.html">INDUSTRIES</a>
+                            <a class="nav-link" href="/pages/industries.html">INDUSTRIES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu/works.html">WORKS</a>
+                            <a class="nav-link" href="/pages/works.html">WORKS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu/ourteam.html">OURTEAM</a>
+                            <a class="nav-link" href="/pages/ourteam.html">OURTEAM</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu/contact.html">CONTACT</a>
+                            <a class="nav-link" href="/pages/contact.html">CONTACT</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">ENG/VN</a>
@@ -313,6 +314,8 @@
     <!-- slick -->
     <script src="/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="/js/script.js"></script>
+    <script src="/js/work.js"></script>
+    <script src="/sweetalert/sweetalert2.min.js"></script>
 </body>
 
 </html>

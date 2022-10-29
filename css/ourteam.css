@@ -1,9 +1,10 @@
 .section1{
     position: relative;
     background-image: url('/image/ourteam.png');
-    background-size: 100%;
+    background-size:cover;
     width: 100%;
-    min-height:700px;
+    min-height:100%;
+    padding-bottom: 18%;
 }
 .section1 .navbar{
     /* position: absolute; */
@@ -53,13 +54,13 @@ nav{
 .section4{
     position: relative;
     background-image: url('/image/teamour.png');
-    background-size: 100%;
+    background-size:cover;
     width: 100%;
-    min-height: 500px;
+    min-height: 100%;
     color: white;
     margin-top: 60px;
+    padding-bottom: 17%;
 }
-.section4 .container{
-    /* padding-top: 60px; */
-    transform: translateY(70%);
+.section4 .col-md-6{
+     margin-top: 10%;
 }

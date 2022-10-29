@@ -1,3 +1,6 @@
+.col-md-4{
+    margin-top: 20px;
+}
 .nav-link{
     color: rgba(4, 4, 107, 0.729);
 }
@@ -5,14 +8,14 @@
     color: rgba(4, 4, 107, 0.729);
     margin-top: 50px;
 }
-.section2 .col-4 h1{
+.section2 .col-md-4 h1{
     padding-top: 30px;
 }
-.section2 .col-4 p{
+.section2 .col-md-4 p{
     position: relative;
     padding-left: 20px;
 }
-.section2 .col-4 p::before{
+.section2 .col-md-4 p::before{
     position: absolute;
     content:"";
     width: 7px;
@@ -21,7 +24,7 @@
     left: 0;
 }
 .btn{
-    background-color:rgba(4, 4, 107, 0.729);
+    background-color:rgba(4, 4, 107, 0.729) !important;
     color: white;
 }
 body {
@@ -30,11 +33,11 @@ body {
 .section3{
     margin-top: 60px;
 }
-.section3 .col-4 .tt{
+.section3 .col-md-4 .tt{
     position: relative;
     padding-top: 10px;
 }
-.section3 .col-4 .tt::before{
+.section3 .col-md-4 .tt::before{
     position: absolute;
     content:"";
     width: 70px;
@@ -46,11 +49,11 @@ body {
 .section4{
     margin-top: 60px;
 }
-.section4 .col-4 .tt{
+.section4 .col-md-4 .tt{
     position: relative;
     padding-top: 10px;
 }
-.section4 .col-4 .tt::before{
+.section4 .col-md-4 .tt::before{
     position: absolute;
     content:"";
     width: 70px;
@@ -59,14 +62,14 @@ body {
     top: 0;
     right: 0;
 }
-.section4 .col-4{
+.section4 .col-md-4{
     text-align:right ;
 }
-.section5 .col-4 .tt{
+.section5 .col-md-4 .tt{
     position: relative;
     padding-top: 10px;
 }
-.section5 .col-4 .tt::before{
+.section5 .col-md-4 .tt::before{
     position: absolute;
     content:"";
     width: 70px;
@@ -80,11 +83,11 @@ body {
 .section6{
     margin-top: 60px;
 }
-.section6 .col-4 .tt{
+.section6 .col-md-4 .tt{
     position: relative;
     padding-top: 10px;
 }
-.section6 .col-4 .tt::before{
+.section6 .col-md-4 .tt::before{
     position: absolute;
     content:"";
     width: 70px;
@@ -93,14 +96,14 @@ body {
     top: 0;
     right: 0;
 }
-.section6 .col-4{
+.section6 .col-md-4{
     text-align:right ;
 }
-.section7 .col-4 .tt{
+.section7 .col-md-4 .tt{
     position: relative;
     padding-top: 10px;
 }
-.section7 .col-4 .tt::before{
+.section7 .col-md-4 .tt::before{
     position: absolute;
     content:"";
     width: 70px;
@@ -111,11 +114,11 @@ body {
 .section7{
     margin-top: 60px;
 }
-.section9 .col-4 .tt{
+.section9 .col-md-4 .tt{
     position: relative;
     padding-top: 10px;
 }
-.section9 .col-4 .tt::before{
+.section9 .col-md-4 .tt::before{
     position: absolute;
     content:"";
     width: 70px;
@@ -129,11 +132,11 @@ body {
 .section8{
     margin-top: 60px;
 }
-.section8 .col-4 .tt{
+.section8 .col-md-4 .tt{
     position: relative;
     padding-top: 10px;
 }
-.section8 .col-4 .tt::before{
+.section8 .col-md-4 .tt::before{
     position: absolute;
     content:"";
     width: 70px;
@@ -142,17 +145,17 @@ body {
     top: 0;
     right: 0;
 }
-.section8 .col-4{
+.section8 .col-md-4{
     text-align:right ;
 }
 .section10{
     margin-top: 60px;
 }
-.section10 .col-4 .tt{
+.section10 .col-md-4 .tt{
     position: relative;
     padding-top: 10px;
 }
-.section10 .col-4 .tt::before{
+.section10 .col-md-4 .tt::before{
     position: absolute;
     content:"";
     width: 70px;
@@ -161,6 +164,6 @@ body {
     top: 0;
     right: 0;
 }
-.section10 .col-4{
+.section10 .col-md-4{
     text-align:right ;
 }

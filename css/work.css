@@ -1,15 +1,18 @@
 .section2{
     color: rgba(4, 4, 107, 0.729);
-    margin-top: 50px;
+    margin-top: 30px;
 }
-.section2 .col-4 h1{
+.section2 .col-md-4{
+    margin-top: 20px;
+}
+.section2 .col-md-4 h1{
     padding-top: 40px;
 }
-.section2 .col-4 p{
+.section2 .col-md-4 p{
     position: relative;
     padding-left: 20px;
 }
-.section2 .col-4 p::before{
+.section2 .col-md-4 p::before{
     position: absolute;
     content:"";
     width: 7px;
@@ -28,7 +31,7 @@
  opacity: 0.6;
 }
 .section3 .card{
-    width: 400px !important;
+    width: 370px !important;
     border: 0;
 }
 .section3{
@@ -64,7 +67,7 @@
     width: 100%;
     background-color:rgba(4, 4, 107, 0.729) ;
     color: white;
-    height: 50px;
+    height: 40px;
 }
 .section5{
     color: rgba(4, 4, 107, 0.729);

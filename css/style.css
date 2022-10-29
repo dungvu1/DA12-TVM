@@ -59,22 +59,33 @@ li{
   }
 .footer .nav-link{
     color: rgba(4, 4, 107, 0.729) !important; 
-
+}
+.footer .nav-link:hover {
+  color:burlywood !important;
 }
 .footer-content{
     right: 0;
     text-align: center;
     padding-top: 16px;
 }
+.footer img{
+ margin-right: 2rem;
+}
 nav{
   margin: 0 auto;
 }
 .nav-link:hover{
   color:burlywood !important;
+   line-height: 2rem !important;
 }
 button:hover{
- color:rgb(203, 80, 13) !important;
+ color:rgb(165, 94, 178) !important;
+ line-height: 2rem !important;
 }
 .send:hover{
-  background-color: rgb(131, 154, 224) !important;
+  background-color: rgb(165, 94, 178) !important;
+  border: 1px solid rgb(165, 94, 178);
+}
+.nav-item {
+  padding-right: 2rem;
 }

@@ -1,10 +1,17 @@
 .section1{
     position: relative;
     background-image: url('/image/home_page.png');
-    background-size: 100%;
     width: 100%;
-    min-height:auto;
-    padding-bottom: 15%;
+    min-height:100% !important;
+    background-size: cover; 
+    /*background-size: cover; để hình trải rộng khắp khối, đồng thời không bị lặp hình khi đặt chiều cao khối quá lớn. */
+    padding-bottom: 10%;
+}
+.section1 .container{
+    flex-direction:space-around;
+}
+.fone-tent{
+    width: 100%;
 }
 .section1 .navbar{
     /* position: absolute; */
@@ -13,18 +20,17 @@
 nav{
     margin: 0 auto;
 }
-.section1 .content-left{
-    width: 50%;
+.section1 .col-md-6{
+    /* width: 50%; */
     color:rgb(252, 253, 253);
-    margin-top: 10%;
-    
+    margin-top: 8%;    
 }
 .nav-link{
     color: white !important;
 }
 .section1 .btn{
  background-color: white !important;
- margin: 40px auto;
+ margin: 7% auto;
 }
 .section2{
     background-color: rgb(213, 210, 206);
@@ -33,13 +39,16 @@ nav{
  margin: 0;
 }
 .regular{
-    margin-top: 30px;
+    margin-top: 9%;
     width:100%;
 }
-.hi5{
-    padding-bottom: 35px;
-    margin-left: 0;
-    
+/* .section2 .col-md-4{
+    left: 0;   
+} */
+.section2 .hi5{
+    width: 100%;
+    padding-bottom: 8%;
+    text-align: left;
 }
 .section2{
     color: rgba(4, 4, 107, 0.729); 
@@ -83,33 +92,31 @@ margin-top: 50px;
     margin: 0 47% auto;
  
 }
-.section5 .row .col{
+.section5 .row .col-lg-4{
     position: relative;
     margin-top: 40px;
 }
 .section5 .row .image-content{
     position:absolute;
-    bottom: 30px;
+    bottom: 6%;
     color: white;
-    text-align: left;
-    margin-left: 40px;
-    margin-right: 40px;
+    text-align:center;
+    /* margin-left: 40px;
+    margin-right: 40px; */
 }
-.section5 .row .col{
+.section5 .row .col-lg-4{
     position: relative;
     margin-top: 40px;
 }
 .section5 .row .image-content1{
     position:absolute;
-    bottom: 60px;
+    bottom: 7%;
     color: white;
-    text-align: left;
-    margin-left: 40px;
-    margin-right: 40px;
+    text-align:center;
+    /* margin-left: 40px;
+    margin-right: 40px; */
 }
-.section5 .send{
-    width: 340px;
-    height: 50px;
+.section5 .image-content1 .btn{
     color: white;
     background-color: rgb(51, 51, 231) ;
     border: 1px solid white;

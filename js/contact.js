@@ -1,30 +1,39 @@
-// function isNumber() { return /^-?[\d.]+(?:e-?\d+)?$/.test();
 function send() {
-    var name = document.getElementById("name");
-    var email= document.getElementById("email");
-    var message = document.getElementById("message");
-    var subject = document.getElementById("subject");
-    debugger
-    if (!name.value) {
-        alert("Bạn cần điền username");
-        name.focus();
-    }
-     if(!email.value) {
-        alert("Bạn cần điền email");
-        email.focus();
-    }
-    if (!subject.value) {
-        alert("Bạn cần điền subject");
-        subject.focus();
-    }
-     if (!message.value) {
-        alert("Bạn cần điền message");
-        message.focus();
-    }
+  var arr = document.getElementsByTagName('input');
+  var name = arr[0].value;
+  var email = arr[1].value;
+  var subject = arr[2].value;
+  var message = document.getElementById("message");
 
-   console.log(name.value) ;  
-   console.log(email.value) ;  
-   console.log(subject.value) ;
-   console.log(message.value) ;  
-  
+  if (!name && !email && !subject && !message.value) {
+    alert("Bạn cần điền đẩy đủ");
+    return;
+  } if (!name && !subject && !message.value) {
+    alert("Bạn cần điền name ,subject và message");
+    return;
+  }
+  if (!name && !email && !message.value) {
+    alert("Bạn cần điền name ,email và message");
+    return;
+  }
+  if (!name && !subject && !email) {
+    alert("Bạn cần điền name ,email và subject");
+    return;
+  }
+  if (!email && !subject && !message.value) {
+    alert("Bạn cần điền email ,subject và message");
+    return;
+  }
+  if (!subject && !message.value) {
+    alert("Bạn cần điền subject và message");
+    return;
+  }
+  if (!message.value) {
+    alert("Bạn cần điền message");
+    return;
+  }
+  if (name != "" && email != "" && subject != "" && message.value != "") {
+    alert("Vui lòng chờ hệ thống sử lí");
+    return;
+  }
 }
