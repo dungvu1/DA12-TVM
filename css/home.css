@@ -78,6 +78,9 @@ margin-top: 50px;
 .section3{
     color: rgba(4, 4, 107, 0.729);  
 }
+.section3 .col-md-4{
+    margin-top: 30px;
+}
 .section4{
     margin-top: 30px;
     color: rgba(4, 4, 107, 0.729);

@@ -89,3 +89,6 @@ button:hover{
 .nav-item {
   padding-right: 2rem;
 }
+.footer .navbar{
+  margin-left: 0 !important;
+}
