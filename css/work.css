@@ -1,3 +1,12 @@
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    .col-md-4{
+        width: 50%;
+    }
+    .col{
+        width: 49%;
+    }
+}
 .section2{
     color: rgba(4, 4, 107, 0.729);
     margin-top: 30px;
@@ -38,7 +47,7 @@
     color: rgba(4, 4, 107, 0.729);
 }
 .section3 .text-center{
-    padding-top: 60px;
+    margin-top: 7%;
     padding-bottom: 20px;
 }
 .section3 .card-text{

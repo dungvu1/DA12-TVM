@@ -1,3 +1,9 @@
+@media only screen and (max-width: 540px) {
+    .col-md-4{min-width: 100% !important;}
+    .card{
+        margin-top: 5%;
+    }
+}
 .section1{
     position: relative;
     background-image: url('/image/ourteam.png');
@@ -40,8 +46,11 @@ nav{
  margin: 0;
 }
 .section3 .row{
-    padding-top: 40px;
+    padding-top: 20px;
     margin: 0 50px auto;
+}
+.section3 .col{
+    margin-top: 20px;
 }
 .section3 .card{
     width:250px;

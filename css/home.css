@@ -1,3 +1,32 @@
+@media only screen and (min-width:540px) and (max-width:1024px) {
+    .container .col-md-6{
+        width: 47%;
+    }
+    .col-md-6>img{
+        height: 300px;
+    }
+    .hi>img{
+        width: 2rem!important;
+    }
+    .hi5 {
+        text-align:left;
+    }
+    .col-lg-4{
+        width: 33.3%;
+        font-size: 10px;
+        text-align: center;
+    }
+    .w-50{
+        width: 100px !important;
+        font-size: 12px;
+    }
+
+}
+@media only screen  and (max-width:540px) {
+    .col-md-4{
+        text-align: center;
+    }
+}
 .section1{
     position: relative;
     background-image: url('/image/home_page.png');

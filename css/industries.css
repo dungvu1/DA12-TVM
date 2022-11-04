@@ -1,3 +1,9 @@
+@media only screen and (min-width: 768px){
+    .col-md-4{
+        width: 44% !important;
+    }
+}
+
 .col-md-4{
     margin-top: 20px;
 }
@@ -19,9 +25,12 @@
     position: absolute;
     content:"";
     width: 7px;
-    height: 70px;
+    height: 55px;
     background-color:rgba(4, 4, 107, 0.729);
     left: 0;
+}
+.section2 .btn{
+    margin-top: 12px;
 }
 .btn{
     background-color:rgba(4, 4, 107, 0.729) !important;
@@ -32,6 +41,11 @@ body {
 }
 .section3{
     margin-top: 60px;
+}
+@media only screen and (max-width: 540px) {
+    .container-sm .row{
+    flex-direction: column-reverse;
+}
 }
 .section3 .col-md-4 .tt{
     position: relative;
